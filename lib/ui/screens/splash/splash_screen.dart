@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
       constraints: BoxConstraints.expand(),
         child: Center(
-          child: Lottie.asset("assets/icons/moviesSplash.json"),
+          child: Image.asset("assets/images/splashh.png"),
         ),
       ),
           backgroundColor :  AppColors.primary,
